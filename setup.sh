@@ -45,3 +45,10 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+#setup RSA key
+ssh-keygen -t rsa
+
+#setup heroku
+heroku login
+heroku keys:add
+
