@@ -52,3 +52,6 @@ ssh-keygen -t rsa
 heroku login
 heroku keys:add
 
+#github username and email
+git config --global user.name "Anand Daniel"
+git config --global user.email "anand.daniel@gmail.com"
